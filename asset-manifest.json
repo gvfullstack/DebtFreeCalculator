@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DebtFreeCalculator/static/css/main.e9778cac.css",
+    "main.js": "/DebtFreeCalculator/static/js/main.5c2eda8c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/DebtFreeCalculator/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/DebtFreeCalculator/index.html",
+    "main.e9778cac.css.map": "/DebtFreeCalculator/static/css/main.e9778cac.css.map",
+    "main.5c2eda8c.js.map": "/DebtFreeCalculator/static/js/main.5c2eda8c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/DebtFreeCalculator/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9778cac.css",
+    "static/js/main.5c2eda8c.js"
+  ]
+}
