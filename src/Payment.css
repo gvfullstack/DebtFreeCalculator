@@ -1,0 +1,125 @@
+.loanSummary{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 4rem;
+}
+    .payAmountDiv{
+        display: flex;
+        flex-direction: column;
+        margin-right: .5rem;
+        align-items: center;
+    }
+    
+        .loanSummaryLabel{
+            font-weight: 500;
+            font-size: medium;
+            margin-left: 1rem;
+            line-height: .01rem;
+            margin-bottom: .01rem;
+        }
+
+        .LoanSummaryData{
+            font-size: medium;
+            max-width: 5rem;
+            text-align: right;
+        }
+
+.paymentDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 75%;
+    margin-top: 1rem;
+}
+        .payLabel{
+            line-height: 1;
+            margin-bottom: -1.65rem;
+            margin-left: 8rem;
+            font-weight: 500;
+            font-size: medium;
+        }
+
+        .paymentInput{
+            display: flex;
+            margin-left: 8rem;
+            align-items: center;
+            }
+
+                #paymentAmount{
+                    height: 2rem;
+                    text-align: right;
+                    border-radius: 4px;
+                    height: 2rem;
+                    border-width: .1rem;
+                    border-color: rgb(192, 188, 188);
+                    border-style: solid;
+                    text-align: right;
+                    font-size: large;
+                    width: 10rem;
+                }
+
+                .paymentInput button{
+                    height: 2rem;
+                    width: 4rem;
+                    margin: 0 .5rem;
+                    border-radius: .5rem;
+                    background-color: rgb(81, 153, 194);
+                    color: white
+                }
+
+                .nextPaySummary{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 3rem;
+                }
+
+                .nextPaySummaryUnit{
+                    display: flex;
+                    line-height: 0;
+                    margin-bottom: -.5rem;
+                }
+
+                .nextHeading{
+                    width: 12rem;
+                    background-color:  rgb(228, 234, 234);
+                    text-align: center;
+                    line-height: 1;
+                    padding:.2rem 0;
+                    margin-bottom: 0rem;
+                    font-weight: 500;
+                }
+            
+                .nextLabel{
+                    width: 6rem;
+                }
+
+                .nextData{
+                    width: 6rem;
+                    text-align: right;
+                }
+
+    .paymentSummarySection{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 1.5rem 0;
+    }
+
+            .calcAmountDiv{
+                margin-left: 8rem;
+                display: flex;
+                align-items: center;
+                margin-bottom: -1rem;
+            }
+                .payData{
+                    width: 15rem;
+                    text-align: right;
+                }
+                
+                .calcAmountDivLabel{
+                    width: 12rem;
+                    margin-right: 1rem;
+                    line-height: 0;
+                    font-weight: 500;
+                }

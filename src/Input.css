@@ -1,0 +1,35 @@
+.amountDiv{
+    display: flex;
+    flex-direction: column;
+    min-width: none;
+    margin-right: 1rem;
+  }
+  
+      .amountDiv label{
+        font-weight: 600;
+        margin-left: .75rem;
+        margin-bottom: -2rem;
+      }
+
+      .innerInputDiv{
+        display: flex;
+        align-items: center;
+        font-weight: 1000;
+        font-size: xx-large;
+
+      }
+     
+      .amountDiv input{
+        border-radius: 4px;
+        height: 2rem;
+        border-width: .1rem;
+        border-color: rgb(192, 188, 188);
+        border-style: solid;
+        text-align: right;
+        font-size: large;
+        width: 10rem;
+      }
+  
+      .amountDiv p{
+        margin-left: .5rem;
+      }

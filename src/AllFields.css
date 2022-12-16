@@ -1,0 +1,63 @@
+.items{
+    width: 70%;
+    margin: 1rem;
+}
+
+.inputDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}
+
+.loanInfoText,
+.paymentText{
+    margin-left: 8rem;
+    line-height: 1.25rem;
+}
+
+.inputSection,
+.paySumulator {
+    border-style: solid;
+    border-radius: 1rem;
+    border-width: .05rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    border-color: rgb(192, 188, 188);
+
+}
+
+.paySummaryHeading{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: rgb(228, 234, 234);
+    width: 60%;
+    margin-left: 8rem;
+}
+
+th, 
+td{
+    width:10rem
+}
+
+th{
+    text-align: center;
+    background-color: rgb(228, 234, 234);
+    border-bottom: solid;
+    border-color: rgb(181, 185, 185)    ;
+
+}
+
+td{
+    text-align: right;
+    padding-right: 1rem;
+    word-wrap: break-word;
+}
+
+.tableButton{
+    margin-top: 1rem;
+    word-wrap: break-word;
+    width: 100%;
+    border-radius: .5rem;
+    padding: .25rem;
+}
