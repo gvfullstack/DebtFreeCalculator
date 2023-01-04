@@ -27,15 +27,7 @@ class Payment extends React.Component {
     }
 
     render(){
-        const adjustInputSize = () => {
-            const payAmountField = document.getElementById(this.props.id)
-
-            if(payAmountField.length < 1){
-                payAmountField.style.width = payAmountField.placeholder.length+2+'px'
-            }else{
-                payAmountField.style.width = payAmountField.length+5+'px'
-            }
-        }
+      
         return(
             <div className = "paymentDiv">               
                 <label className = "payLabel" htmlFor={this.props.htmlFor}>{this.props.label}</label>
